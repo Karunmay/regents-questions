@@ -1,458 +1,265 @@
 version: 1
-task_description: 'Teach the model how to write New York State Living Environment Regents multiple choic- questions'
+task_description: 'Teach the model how to write New York State Living Environment Regents multiple choice questions'
 created_by: karunmay
 domain: education
 seed_examples:
   - question: In an animal cell, all of the organelles work together to carry out 
-(1) photosynthesis
-(2) diffusion
-(3) metabolic processes
-(4) information storage
+      (1) photosynthesis
+      (2) diffusion
+      (3) metabolic processes
+      (4) information storage
     answer: (3) metabolic processes
-  - question: A colony of 47,000 quaking aspen trees, all
-connected by one root system, is considered to
-be Earth’s most massive organism. When the
-trees are stressed, shoots are sent out from the
-roots and develop into new trees. Every new tree
-in this colony would contain
-(1) the same genetic information, because it is
-produced asexually
-(2) the same genetic information, because it is
-produced sexually
-(3) less genetic material, since it is produced
-from root cells
-(4) a different combination of genes, since it is
-produced from various roots
-    answer: (1) the same genetic information, because it is
-produced asexually
-  - question: Scientists have found that different tissues in
-the prostate gland, a male reproductive organ,
-respond to different hormones. The tissues in the
-center area of the gland respond to testosterone
-and the tissues in the outer area of the gland
-respond to estrogen.
-The cells that make up these two regions of the
-prostate are different in that
-(1) cells in the center area produce more
-estrogen than cells in the outer area
-(2) cells in the outer area have many
-testosterone receptors
-(3) they contain different receptors on their cell
-membranes
-(4) they contain different DNA sequences for
-the production of hormones
-    answer: (3) they contain different receptors on their cell
-membranes
+  - question: A colony of 47,000 quaking aspen trees, all connected by one root system, is considered to be Earth’s most massive organism. When the trees are stressed, shoots are sent out from the roots and develop into new trees. Every new tree in this colony would contain
+      (1) the same genetic information, because it is produced asexually
+      (2) the same genetic information, because it is produced sexually
+      (3) less genetic material, since it is produced from root cells
+      (4) a different combination of genes, since it is produced from various roots
+    answer: (1) the same genetic information, because it is produced asexually
+  - question: Scientists have found that different tissues in the prostate gland, a male reproductive organ, respond to different hormones. The tissues in the center area of the gland respond to testosterone and the tissues in the outer area of the gland respond to estrogen. The cells that make up these two regions of the prostate are different in that
+      (1) cells in the center area produce more estrogen than cells in the outer area
+      (2) cells in the outer area have many testosterone receptors
+      (3) they contain different receptors on their cell membranes
+      (4) they contain different DNA sequences for the production of hormones
+    answer: (3) they contain different receptors on their cell membranes
   - question: The process of differentiation occurs when
-(1) two different cells, a sperm cell and an egg
-cell, combine to produce a zygote
-(2) different zygotes are formed each time that
-an egg and sperm unite
-(3) different kinds of cells and tissues form
-during embryonic development
-(4) two different sexes are present among the
-offspring, after sexual reproduction
-    answer: (3) different kinds of cells and tissues form
-during embryonic development
-  - question: Which two human systems work together to
-provide glucose for the cells of the body?
-(1) nervous and reproductive systems
-(2) nervous and respiratory systems
-(3) circulatory and digestive systems
-(4) circulatory and respiratory systems
+      (1) two different cells, a sperm cell and an egg cell, combine to produce a zygote
+      (2) different zygotes are formed each time that an egg and sperm unite
+      (3) different kinds of cells and tissues form during embryonic development
+      (4) two different sexes are present among the offspring, after sexual reproduction
+    answer: (3) different kinds of cells and tissues form during embryonic development
+  - question: Which two human systems work together to provide glucose for the cells of the body?
+      (1) nervous and reproductive systems
+      (2) nervous and respiratory systems
+      (3) circulatory and digestive systems
+      (4) circulatory and respiratory systems
     answer: (3) circulatory and digestive systems
-  - question: Dioxin, a toxin associated with waste incineration
-and some plastics, has been found to directly
-disrupt normal gamete production in human
-females. Dioxin most likely affects the
-(1) testes and progesterone production
-(2) ovaries and estrogen production
-(3) DNA in the nuclei of sperm cells
-(4) pancreas and insulin production
+  - question: Dioxin, a toxin associated with waste incineration and some plastics, has been found to directly disrupt normal gamete production in human females. Dioxin most likely affects the
+      (1) testes and progesterone production
+      (2) ovaries and estrogen production
+      (3) DNA in the nuclei of sperm cells
+      (4) pancreas and insulin production
     answer: (2) ovaries and estrogen production
-  - question: A gene present only in a single plant species was
-found to regulate protein content. This gene
-could increase the protein content of other food
-crops in the developing world. The most likely
-method that scientists would use to incorporate
-this gene into a variety of food crops is
-(1) genetic engineering
-(2) selective breeding
-(3) sexual reproduction between the plants with
-this gene and those without it
-(4) deletion of the genes that limit protein
-production from each individual food crop
-plant
+  - question: A gene present only in a single plant species was found to regulate protein content. This gene could increase the protein content of other food crops in the developing world. The most likely method that scientists would use to incorporate this gene into a variety of food crops is
+      (1) genetic engineering
+      (2) selective breeding
+      (3) sexual reproduction between the plants with this gene and those without it
+      (4) deletion of the genes that limit protein production from each individual food crop plant
     answer: (1) genetic engineering
-  - question: A decrease in predators within an ecosystem
-would lead to an increase in herbivores. The
-increase in herbivores would cause a decrease in
-(1) decomposers
-(2) prey
-(3) consumers
-(4) producers
+  - question: A decrease in predators within an ecosystem would lead to an increase in herbivores. The increase in herbivores would cause a decrease in
+      (1) decomposers
+      (2) prey
+      (3) consumers
+      (4) producers
     answer: (4) producers
-  - question: Which statement best describes a critical function
-of the placenta?
-(1) Meiosis occurs in the placenta, allowing for
-the development and release of eggs.
-(2) Blood from the mother and fetus mixes at the
-placenta, providing nutrients and oxygen.
-(3) The placenta filters out all harmful toxins and
-chemicals from the mother’s blood, so that
-they cannot reach the fetus.
-(4) The exchange of oxygen and carbon dioxide
-occurs between the mother and developing
-fetus across the placenta.
-    answer: (4) The exchange of oxygen and carbon dioxide
-occurs between the mother and developing
-fetus across the placenta.
-  - question: Organisms maintain internal stability in a
-changing environment. To do this, they make
-a series of adjustments. The process of making
-these continual adjustments is referred to as
-(1) cellular respiration
-(2) active transport
-(3) natural selection
-(4) dynamic equilibrium
+  - question: Which statement best describes a critical function of the placenta?
+      (1) Meiosis occurs in the placenta, allowing for the development and release of eggs.
+      (2) Blood from the mother and fetus mixes at the placenta, providing nutrients and oxygen.
+      (3) The placenta filters out all harmful toxins and chemicals from the mother’s blood, so that they cannot reach the fetus.
+      (4) The exchange of oxygen and carbon dioxide occurs between the mother and developing fetus across the placenta.
+    answer: (4) The exchange of oxygen and carbon dioxide occurs between the mother and developing fetus across the placenta.
+  - question: Organisms maintain internal stability in a changing environment. To do this, they make a series of adjustments. The process of making these continual adjustments is referred to as
+      (1) cellular respiration
+      (2) active transport
+      (3) natural selection
+      (4) dynamic equilibrium
     answer: (4) dynamic equilibrium
-  - question: Tissue engineering is being developed as a
-technology that would use laboratory-grown tissues
-to replace diseased or damaged human body parts,
-such as hearts and kidneys. In order to build these
-new body parts, scientists would start by
-(1) assembling molecules directly into tissues
-that can make body systems
-(2) making organelles and using the organelles to
-develop organs
-(3) engineering body systems in order to develop
-organelles for transplant
-(4) growing cells to develop tissues and then
-growing these tissues to form an organ
-    answer: (4) growing cells to develop tissues and then
-growing these tissues to form an organ
-  - question: People with cystic fibrosis have decreased levels of
-some digestive enzymes in their small intestines.
-It is essential that they take enzyme supplements
-in order to prevent malnutrition. These enzymes
-are an important part of the digestive process
-because they
-(1) break down foods so that nutrients can be
-absorbed and used
-(2) contain vitamins and other nutrients
-necessary for a healthy diet
-(3) allow the person to synthesize large,
-inorganic nutrient molecules
-(4) are the building blocks of carbohydrates and
-other nutrient molecules
-    answer: (1) break down foods so that nutrients can be
-absorbed and used
-  - question: Kidney-transplant surgery places a healthy
-kidney from one person into the body of another.
-The body will often produce substances that work
-against this transplanted organ. The system most
-directly involved in attacking the transplanted
-kidney is the
-(1) excretory system
-(2) nervous system
-(3) circulatory system
-(4) immune system
+  - question: Tissue engineering is being developed as a technology that would use laboratory-grown tissues to replace diseased or damaged human body parts, such as hearts and kidneys. In order to build these new body parts, scientists would start by
+      (1) assembling molecules directly into tissues that can make body systems
+      (2) making organelles and using the organelles to develop organs
+      (3) engineering body systems in order to develop organelles for transplant
+      (4) growing cells to develop tissues and then growing these tissues to form an organ
+    answer: (4) growing cells to develop tissues and then growing these tissues to form an organ
+  - question: People with cystic fibrosis have decreased levels of some digestive enzymes in their small intestines. It is essential that they take enzyme supplements in order to prevent malnutrition. These enzymes are an important part of the digestive process because they
+      (1) break down foods so that nutrients can be absorbed and used
+      (2) contain vitamins and other nutrients necessary for a healthy diet
+      (3) allow the person to synthesize large, inorganic nutrient molecules
+      (4) are the building blocks of carbohydrates and other nutrient molecules
+    answer: (1) break down foods so that nutrients can be absorbed and used
+  - question: Kidney-transplant surgery places a healthy kidney from one person into the body of another. The body will often produce substances that work against this transplanted organ. The system most directly involved in attacking the transplanted kidney is the
+      (1) excretory system
+      (2) nervous system
+      (3) circulatory system
+      (4) immune system
     answer: (4) immune system
-  - question: The World Wildlife Federation’s recent report indicated that there has been a 60% decline in the size of
-monitored wildlife populations in just over 40 years. The most likely factor contributing to this decline was
-(1) animals reproducing successfully
-(2) the destruction of many natural habitats
-(3) passing environmental protection laws
-(4) the introduction of native species into habitats
+  - question: The World Wildlife Federation’s recent report indicated that there has been a 60% decline in the size of monitored wildlife populations in just over 40 years. The most likely factor contributing to this decline was
+      (1) animals reproducing successfully
+      (2) the destruction of many natural habitats
+      (3) passing environmental protection laws
+      (4) the introduction of native species into habitats
     answer: (2) the destruction of many natural habitats
   - question: Which two terms are opposite processes?
-(1) autotrophic nutrition and photosynthesis
-(2) asexual reproduction and cloning
-(3) digestion and synthesis
-(4) natural selection and evolution
+      (1) autotrophic nutrition and photosynthesis
+      (2) asexual reproduction and cloning
+      (3) digestion and synthesis
+      (4) natural selection and evolution
     answer: (3) digestion and synthesis
-  - question: Which human activity would most likely deplete
-finite resources?
-(1) recycling of aluminum and paper
-(2) protection of wildlife habitats
-(3) uncontrolled population growth
-(4) regulations that reduce industrial pollution
+  - question: Which human activity would most likely deplete finite resources?
+      (1) recycling of aluminum and paper
+      (2) protection of wildlife habitats
+      (3) uncontrolled population growth
+      (4) regulations that reduce industrial pollution
     answer: (3) uncontrolled population growth
-  - question: Which event would most likely be the immediate
-result of significantly lowering the oxygen
-concentration in a freshwater lake?
-(1) a decrease in the number of fish
-(2) an increase in the number of plants
-(3) an increase in biodiversity
-(4) a decrease in water temperature
+  - question: Which event would most likely be the immediate result of significantly lowering the oxygen concentration in a freshwater lake?
+      (1) a decrease in the number of fish
+      (2) an increase in the number of plants
+      (3) an increase in biodiversity
+      (4) a decrease in water temperature
     answer: (1) a decrease in the number of fish
-  - question: Scientists have modified papayas to be resistant
-to the papaya ringspot virus and to decrease
-the time that it takes for them to ripen. These
-modifications
-(1) may cause papayas to ripen too slowly,
-causing loss of revenue
-(2) are passed to any organism that eats them,
-making the organism resistant to the virus
-(3) are an example of using agricultural
-technologies to increase farm yields
-(4) could spread ringspot virus throughout the
-entire ecosystem
-    answer: (3) are an example of using agricultural
-technologies to increase farm yields
-  - question: Vaccinated individuals are protected from disease
-because their bodies have been stimulated to
-(1) produce antibodies against specific pathogens
-(2) synthesize antigens against harmful microbes
-(3) make fewer white blood cells during infection
-(4) manufacture more enzymes to react to microbes
+  - question: Scientists have modified papayas to be resistant to the papaya ringspot virus and to decrease the time that it takes for them to ripen. These modifications
+      (1) may cause papayas to ripen too slowly, causing loss of revenue
+      (2) are passed to any organism that eats them, making the organism resistant to the virus
+      (3) are an example of using agricultural technologies to increase farm yields
+      (4) could spread ringspot virus throughout the entire ecosystem
+    answer: (3) are an example of using agricultural technologies to increase farm yields
+  - question: Vaccinated individuals are protected from disease because their bodies have been stimulated to
+      (1) produce antibodies against specific pathogens
+      (2) synthesize antigens against harmful microbes
+      (3) make fewer white blood cells during infection
+      (4) manufacture more enzymes to react to microbes
     answer: (1) produce antibodies against specific pathogens
-  - question: A species of predatory wasp is introduced to
-control an insect pest. A possible negative
-consequence of this action is that the new
-predatory wasp may
-(1) limit the population of the insect pest
-(2) prey on beneficial insects
-(3) disrupt mineral availability in the ecosystem
-(4) cause an increase in pesticide-resistant plants
+  - question: A species of predatory wasp is introduced to control an insect pest. A possible negative consequence of this action is that the new predatory wasp may
+      (1) limit the population of the insect pest
+      (2) prey on beneficial insects
+      (3) disrupt mineral availability in the ecosystem
+      (4) cause an increase in pesticide-resistant plants
     answer: (2) prey on beneficial insects
-  - question: Homeostasis in single-celled organisms is
-maintained through the proper functioning of
-(1) organelles
-(2) estrogen
-(3) guard cells
-(4) antibodies
+  - question: Homeostasis in single-celled organisms is maintained through the proper functioning of
+      (1) organelles
+      (2) estrogen
+      (3) guard cells
+      (4) antibodies
     answer: (1) organelles
-  - question: In a stable ecosystem, each niche is usually
-occupied by only one species. The species
-occupying a particular niche is able to continue
-to remain there as a direct result of
-(1) ecological succession
-(2) favorable adaptations
-(3) a new mutation
-(4) selective breeding
+  - question: In a stable ecosystem, each niche is usually occupied by only one species. The species occupying a particular niche is able to continue to remain there as a direct result of
+      (1) ecological succession
+      (2) favorable adaptations
+      (3) a new mutation
+      (4) selective breeding
     answer: (2) favorable adaptations
-  - question: When exposed to ultraviolet (UV) light, human
-skin cells produce the protein melanin. This
-protein helps protect skin cells from damage
-caused by UV light. This is an example of
-(1) a gene that cannot be passed on to offspring
-(2) natural selection producing a new species
-(3) sexual reproduction that will produce
-variation
-(4) environmental factors affecting gene
-expression
-    answer: (4) environmental factors affecting gene
-expression
-  - question: The human pancreas contains cells that secrete
-insulin. Only these cells produce insulin because
-(1) cells eliminate the parts of the genetic code
-they do not use
-(2) all other cells lack the genes for insulin
-production
-(3) different cells use different parts of the
-genetic information that they contain
-(4) they are the only cells associated with the
-digestion of sugar
-    answer: (3) different cells use different parts of the
-genetic information that they contain
-  - question: In humans, two organ systems work together to
-move oxygen throughout the body and deliver it
-to cells. Which system directly delivers oxygen to
-body cells?
-(1) nervous
-(2) digestive
-(3) respiratory
-(4) circulatory
+  - question: When exposed to ultraviolet (UV) light, human skin cells produce the protein melanin. This protein helps protect skin cells from damage caused by UV light. This is an example of
+      (1) a gene that cannot be passed on to offspring
+      (2) natural selection producing a new species
+      (3) sexual reproduction that will produce variation
+      (4) environmental factors affecting gene expression
+    answer: (4) environmental factors affecting gene expression
+  - question: The human pancreas contains cells that secrete insulin. Only these cells produce insulin because
+      (1) cells eliminate the parts of the genetic code they do not use
+      (2) all other cells lack the genes for insulin production
+      (3) different cells use different parts of the genetic information that they contain
+      (4) they are the only cells associated with the digestion of sugar
+    answer: (3) different cells use different parts of the genetic information that they contain
+  - question: In humans, two organ systems work together to move oxygen throughout the body and deliver it to cells. Which system directly delivers oxygen to body cells?
+      (1) nervous
+      (2) digestive
+      (3) respiratory
+      (4) circulatory
     answer: (4) circulatory
-  - question: Which set of substances are molecular building
-blocks that directly form some of the complex
-organic molecules present in humans?
-(1) water and oxygen
-(2) starch and nitrogen
-(3) carbon dioxide and proteins
-(4) glucose and amino acids
+  - question: Which set of substances are molecular building blocks that directly form some of the complex organic molecules present in humans?
+      (1) water and oxygen
+      (2) starch and nitrogen
+      (3) carbon dioxide and proteins
+      (4) glucose and amino acids
     answer: (4) glucose and amino acids
-  - question: Which interaction is an example of competition
-between two species?
-(1) mice and chipmunks eating sunflower seeds
-at a bird feeder
-(2) mold growing on a tree that has fallen in the
-forest
-(3) a coyote feeding on the remains of a squirrel
-killed on the road
-(4) a lion stalking, killing, and eating a zebra
-    answer: (1) mice and chipmunks eating sunflower seeds
-at a bird feeder
-  - question: One important reason that humans have such a
-significant effect on Earth’s ecosystems is that
-humans
-(1) remove large amounts of carbon dioxide from
-the air
-(2) are able to increase the amount of finite
-resources
-(3) can modify the environment through
-technology
-(4) reproduce faster than other animal species
-    answer: (3) can modify the environment through
-technology
-  - question: Mutations can be beneficial to a species because
-they
-(1) can lead to some members of a species having
-favorable traits in a changing environment
-(2) allow organisms to mate with other species
-(3) will lead to the loss of traits that are helpful in
-a specific environment
-(4) cause the reproductive rate of a species to
-decrease
-    answer: (1) can lead to some members of a species having
-favorable traits in a changing environment
-  - question: Within ten years after the introduction of a new
-mosquito spray, very few of the descendants of
-the targeted mosquito populations were killed by
-the usual dose of the spray. The best explanation
-for this is that
-(1) ingesting the spray caused the mosquitoes to
-become resistant to it
-(2) the spray polluted the water in which the
-mosquitoes deposited their eggs
-(3) the spray killed organisms that caused
-diseases in mosquitoes
-(4) existing variations in the mosquito population
-provided resistance to the spray
-    answer: (4) existing variations in the mosquito population
-provided resistance to the spray
-  - question: Once implanted into a recipient, bioengineered
-blood vessels made from a plastic-like material
-become covered with the recipient’s own cells.
-An advantage of using these bioengineered
-vessels is that
-(1) they contain antibodies that will block an
-immune response
-(2) viruses and bacteria will not infect the cells
-on these blood vessels
-(3) they do not trigger an immune response
-(4) the engineered blood vessels can be
-inherited by future generations
+  - question: Which interaction is an example of competition between two species?
+      (1) mice and chipmunks eating sunflower seeds at a bird feeder
+      (2) mold growing on a tree that has fallen in the forest
+      (3) a coyote feeding on the remains of a squirrel killed on the road
+      (4) a lion stalking, killing, and eating a zebra
+    answer: (1) mice and chipmunks eating sunflower seeds at a bird feeder
+  - question: One important reason that humans have such a significant effect on Earth’s ecosystems is that humans
+      (1) remove large amounts of carbon dioxide from the air
+      (2) are able to increase the amount of finite resources
+      (3) can modify the environment through technology
+      (4) reproduce faster than other animal species
+    answer: (3) can modify the environment through technology
+  - question: Mutations can be beneficial to a species because they
+      (1) can lead to some members of a species having favorable traits in a changing environment
+      (2) allow organisms to mate with other species
+      (3) will lead to the loss of traits that are helpful in a specific environment
+      (4) cause the reproductive rate of a species to decrease
+    answer: (1) can lead to some members of a species having favorable traits in a changing environment
+  - question: Within ten years after the introduction of a new mosquito spray, very few of the descendants of the targeted mosquito populations were killed by the usual dose of the spray. The best explanation for this is that
+      (1) ingesting the spray caused the mosquitoes to become resistant to it
+      (2) the spray polluted the water in which the mosquitoes deposited their eggs
+      (3) the spray killed organisms that caused diseases in mosquitoes
+      (4) existing variations in the mosquito population provided resistance to the spray
+    answer: (4) existing variations in the mosquito population provided resistance to the spray
+  - question: Once implanted into a recipient, bioengineered blood vessels made from a plastic-like material become covered with the recipient’s own cells. An advantage of using these bioengineered vessels is that
+      (1) they contain antibodies that will block an immune response
+      (2) viruses and bacteria will not infect the cells on these blood vessels
+      (3) they do not trigger an immune response
+      (4) the engineered blood vessels can be inherited by future generations
     answer: (3) they do not trigger an immune response
-  - question: A saltwater aquarium contained a variety of
-saltwater fish and plants. Members of a species
-of small fish from a freshwater stream were
-accidentally added to the saltwater tank. Within
-an hour, all of the fish that were added were
-dead, while the saltwater fish were still healthy.
-The freshwater fish most likely died because they
-(1) became severely dehydrated due to the
-process of diffusion
-(2) swelled up and died due to taking in too
-much water
-(3) had no freshwater organisms to eat in the
-saltwater tank, so they died of starvation
-(4) ate all of the plants in the tank, so there was
-no longer oxygen in the water
-    answer: (1) became severely dehydrated due to the
-process of diffusion
-  - question: Which would most likely control an insect pest
-and be the least harmful to the environment?
-(1) eliminating the plants that the insect pest
-feeds on
-(2) using traps baited with sex hormones that
-attract the insect pest
-(3) releasing imported insects that prey on the
-insect pest
-(4) spraying areas with insecticides that affect
-the insect pest
-    answer: (2) using traps baited with sex hormones that
-attract the insect pest
-  - question: Which statement concerning the functioning of
-cells is correct?
-(1) Mitochondria transfer energy from organic
-compounds to form ATP molecules.
-(2) Vacuoles are the sites of DNA synthesis.
-(3) The nucleus stores genes that will later be
-removed from the cell.
-(4) The cell membrane prevents the diffusion of
-all poisons into a cell from its environment.
-    answer: (1) Mitochondria transfer energy from organic
-compounds to form ATP molecules.
-  - question: Damage to which structure would directly
-interfere with the nutritional needs of a
-developing embryo?
-(1) ovary
-(2) testes
-(3) lungs
-(4) placenta
+  - question: A saltwater aquarium contained a variety of saltwater fish and plants. Members of a species of small fish from a freshwater stream were accidentally added to the saltwater tank. Within an hour, all of the fish that were added were dead, while the saltwater fish were still healthy. The freshwater fish most likely died because they
+      (1) became severely dehydrated due to the process of diffusion
+      (2) swelled up and died due to taking in too much water
+      (3) had no freshwater organisms to eat in the saltwater tank, so they died of starvation
+      (4) ate all of the plants in the tank, so there was no longer oxygen in the water
+    answer: (1) became severely dehydrated due to the process of diffusion
+  - question: Which would most likely control an insect pest and be the least harmful to the environment?
+      (1) eliminating the plants that the insect pest feeds on
+      (2) using traps baited with sex hormones that attract the insect pest
+      (3) releasing imported insects that prey on the insect pest
+      (4) spraying areas with insecticides that affect the insect pest
+    answer: (2) using traps baited with sex hormones that attract the insect pest
+  - question: Which statement concerning the functioning of cells is correct?
+      (1) Mitochondria transfer energy from organic compounds to form ATP molecules.
+      (2) Vacuoles are the sites of DNA synthesis.
+      (3) The nucleus stores genes that will later be removed from the cell.
+      (4) The cell membrane prevents the diffusion of all poisons into a cell from its environment.
+    answer: (1) Mitochondria transfer energy from organic compounds to form ATP molecules.
+  - question: Damage to which structure would directly interfere with the nutritional needs of a developing embryo?
+      (1) ovary
+      (2) testes
+      (3) lungs
+      (4) placenta
     answer: (4) placenta
-  - question: The body’s inability to regulate blood pH could
-affect
-(1) enzymes that function within the circulatory
-system
-(2) red blood cells’ ability to fight infections
-(3) white blood cells’ ability to carry oxygen to
-the body
-(4) DNA that controls starch digestion in the
-circulatory system
-    answer: (1) enzymes that function within the circulatory
-system
-  - question: Test anxiety and stress can trigger many responses
-in the human body. It can stimulate increased
-heart and respiratory rates and increased
-sweating. These physical responses to increased
-stress are examples of
-(1) competition
-(2) infections
-(3) gene manipulation
-(4) feedback mechanisms
+  - question: The body’s inability to regulate blood pH could affect
+      (1) enzymes that function within the circulatory system
+      (2) red blood cells’ ability to fight infections
+      (3) white blood cells’ ability to carry oxygen to the body
+      (4) DNA that controls starch digestion in the circulatory system
+    answer: (1) enzymes that function within the circulatory system
+  - question: Test anxiety and stress can trigger many responses in the human body. It can stimulate increased heart and respiratory rates and increased sweating. These physical responses to increased stress are examples of
+      (1) competition
+      (2) infections
+      (3) gene manipulation
+      (4) feedback mechanisms
     answer: (4) feedback mechanisms
-  - question: A self-sustaining ecosystem in a glass tank must
-include
-(1) producers, decomposers, light, and water
-(2) herbivores, consumers, decomposers, and
-water
-(3) decomposers, heterotrophs, light, water, and
-carbon
-(4) heterotrophs, water, and carbon dioxide
+  - question: A self-sustaining ecosystem in a glass tank must include
+      (1) producers, decomposers, light, and water
+      (2) herbivores, consumers, decomposers, and water
+      (3) decomposers, heterotrophs, light, water, and carbon
+      (4) heterotrophs, water, and carbon dioxide
     answer: (1) producers, decomposers, light, and water
-  - question: A sea slug found along the eastern coast of
-North America is known to have an interesting
-relationship with algae. The sea slug incorporates
-part of the algae into its tissues. This allows the
-sea slug to directly use energy from the Sun.
-Which structures from the algae would the sea
-slug need to take in to accomplish this?
-(1) nuclei
-(2) mitochondria
-(3) chloroplasts
-(4) ribosomes
+  - question: A sea slug found along the eastern coast of North America is known to have an interesting relationship with algae. The sea slug incorporates part of the algae into its tissues. This allows the sea slug to directly use energy from the Sun. Which structures from the algae would the sea slug need to take in to accomplish this?
+      (1) nuclei
+      (2) mitochondria
+      (3) chloroplasts
+      (4) ribosomes
     answer: (3) chloroplasts
-  - question: Which three processes usually result in the
-greatest variety of possible gene combinations?
-(1) mutation, meiosis, and fertilization
-(2) differentiation, mitosis, and fertilization
-(3) cloning, meiosis, and fertilization
-(4) differentiation, mutation, and fertilization
+  - question: Which three processes usually result in the greatest variety of possible gene combinations?
+      (1) mutation, meiosis, and fertilization
+      (2) differentiation, mitosis, and fertilization
+      (3) cloning, meiosis, and fertilization
+      (4) differentiation, mutation, and fertilization
     answer: (1) mutation, meiosis, and fertilization
-  - question:All the genetic information necessary for
-the growth and development in a sexually
-reproducing animal is present in
-(1) egg cells, only
-(2) sperm cells, only
-(3) either sperm cells or egg cells
-(4) zygotes
+  - question: All the genetic information necessary for the growth and development in a sexually reproducing animal is present in
+      (1) egg cells, only
+      (2) sperm cells, only
+      (3) either sperm cells or egg cells
+      (4) zygotes
     answer: (4) zygotes
-  - question: In an experiment using a particular frog species, nuclei were removed from the intestinal cells of tadpoles
-and transplanted into eggs whose nuclei had been removed. A small number of these eggs developed into
-normal frogs. This suggests that the nuclei of tadpole intestinal cells
-(1) can undergo meiosis and form gametes
-(2) contain all of the genetic information needed for frog development
-(3) will undergo mitosis and form a new zygote
-(4) fused with the frog genes already present in the zygotes
+  - question: In an experiment using a particular frog species, nuclei were removed from the intestinal cells of tadpoles and transplanted into eggs whose nuclei had been removed. A small number of these eggs developed into normal frogs. This suggests that the nuclei of tadpole intestinal cells
+      (1) can undergo meiosis and form gametes
+      (2) contain all of the genetic information needed for frog development
+      (3) will undergo mitosis and form a new zygote
+      (4) fused with the frog genes already present in the zygotes
     answer: (2) contain all of the genetic information needed for frog development
   - question: Which sequence represents the correct interaction of organelles and processes for the synthesis of proteins?
-(1) nucleus → amino acid bonding → ribosomes → gene codes
-(2) ribosomes → nucleus → gene codes → amino acid bonding
-(3) ribosomes → gene codes → amino acid bonding → nucleus
-(4) nucleus → gene codes → ribosomes → amino acid bonding
+      (1) nucleus → amino acid bonding → ribosomes → gene codes
+      (2) ribosomes → nucleus → gene codes → amino acid bonding
+      (3) ribosomes → gene codes → amino acid bonding → nucleus
+      (4) nucleus → gene codes → ribosomes → amino acid bonding
     answer: (4) nucleus → gene codes → ribosomes → amino acid bonding
 document:
  repo: https://github.com/Karunmay/regent--questions.git
